@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Edecor | Site para Comércio Eletrônico de Decorações</title>
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+
+        <a href="#" class="nav__logo">Edecor</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Garrafas</a>
+            </li>
+            <li class="nav__item">
+              <a href="#tropicais" class="nav__link">Plantas</a>
+            </li>
+            <li class="nav__item"><a href="./shop.html" class="nav__link">Outros Produtos</a></li>
+            <li class="nav__item"><a href="#new" class="nav__link">Promoções</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__shop">
+          <i class="bx bx-shopping-bag"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__juice">
+            <div class="home__shape"></div>
+            <img
+              src="./assets/img/imghome.png"
+              alt="Página Incial"
+              class="home__img"
+            />
+          </div>
+
+          <div class="home__data">
+            <span class="home__new">Destaque da Semana</span>
+            <h1 class="home__title">
+              Vaso de Suculenta <br />
+              Decorado
+            </h1>
+            <a href="#" class="button">Materiais para Confecção</a> <br><br>
+            <a href="#" class="button">Adicionar na Sacola</a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== FEATURED =====-->
+      <section class="featured section" id="featured">
+        <h2 class="section-title">DESTAQUE</h2>
+
+        <div class="featured__container bd-grid">
+          <article class="juice">
+            <div class="juice__sale">Promoção</div>
+            <img src="./assets/img/navel-orange.png" alt="" class="juice__img" />
+            <span class="juice__name">Laranja da Bahia</span>
+            <span class="juice__price">R$9,99</span>
+            <a href="#" class="button-light"
+              >Adicionar ao carrinho <i class="bx bx-right-arrow-alt button-icon"></i
+            ></a>
+          </article>
+
+          <article class="juice">
+            <div class="juice__sale">Promoção</div>
+            <img src="./assets/img/morango.png" alt="" class="juice__img" />
+            <span class="juice__name">Morango com água</span>
+            <span class="juice__price">$149.99</span>
+            <a href="#" class="button-light">
+              Adicionar ao carrinho
+              <i class="bx bx-right-arrow-alt button-icon"></i>
+            </a>
+          </article>
+
+          <article class="juice">
+            <div class="juice__sale">Promoção</div>
+            <img src="./assets/img/abacaxi.png" alt="" class="juice__img" />
+            <span class="juice__name">Abacaxi</span>
+            <span class="juice__price">$9.99</span>
+            <a href="#" class="button-light">
+              Adicionar ao carrinho
+              <i class="bx bx-right-arrow-alt button-icon"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+      
+      <!--===== COLLECTION =====-->
+      <section class="collection section">
+        <div class="collection__container bd-grid">
+          <div class="collection__card">
+            <div class="collection__data">
+              <h3 class="collection__name">Mix</h3>
+              <p class="collection_description">Novovidades para 2020</p>
+              <a href="#" class="button-light">
+                Compre agora
+                <i class="bx bx-right-arrow-alt button-icon"></i>
+              </a>
+            </div>
+
+            <img
+              src="./assets/img/collection1.png"
+              alt=""
+              class="collection__img"
+            />
+          </div>
+
+          <div class="collection__card">
+            <div class="collection__data">
+              <h3 class="collection__name">Cocktails</h3>
+              <p class="collection_description">Novovidades para 2020</p>
+              <a href="#" class="button-light">
+                Compre agora
+                <i class="bx bx-right-arrow-alt button-icon"></i>
+              </a>
+            </div>
+
+            <img
+              src="./assets/img/cocktail1.png"
+              alt=""
+              class="collection__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--===== tropicais juiceS =====-->
+      <section class="tropicais section" id="tropicais">
+        <h2 class="section-title">TROPICAIS</h2>
+
+        <div class="tropicais__container bd-grid">
+          <article class="juice">
+            <img src="./assets/img/manga.png" alt="" class="juice__img" />
+            <span class="juice__name">Manga</span>
+            <span class="juice__price">$12.99</span>
+            <a href="#" class="button-light">
+              Adicionar ao carrinho
+              <i class="bx bx-right-arrow-alt button-icon"></i>
+            </a>
+          </article>
+          
+          <article class="juice">
+            <img src="./assets/img/maca-verde.png" alt="" class="juice__img" />
+            <span class="juice__name">Maçã Verde</span>
+            <span class="juice__price">$12.99</span>
+            <a href="#" class="button-light">
+              Adicionar ao carrinho
+              <i class="bx bx-right-arrow-alt button-icon"></i>
+            </a>
+          </article>
+
+          <article class="juice">
+            <img src="./assets/img/roma.png" alt="" class="juice__img" />
+            <span class="juice__name">Romã</span>
+            <span class="juice__price">$12.99</span>
+            <a href="#" class="button-light">
+              Adicionar ao carrinho
+              <i class="bx bx-right-arrow-alt button-icon"></i>
+            </a>
+          </article>
+          
+          <article class="juice">
+            <img src="./assets/img/framboesa.png" alt="" class="juice__img" />
+            <span class="juice__name">Framboesa</span>
+            <span class="juice__price">$12.99</span>
+            <a href="#" class="button-light">
+              Adicionar ao carrinho
+              <i class="bx bx-right-arrow-alt button-icon"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!--===== OFFER =====-->
+      <section class="offer section">
+        <div class="offer__container bd-grid">
+          <div class="offer__data">
+            <h3 class="offer__title">50% OFF</h3>
+            <p class="offer__descrition">Morango com água</p>
+            <a href="#" class="button">Compre Agora</a>
+          </div>
+
+          <img src="./assets/img/gelado.png" alt="" class="offer__img">
+        </div>
+      </section>
+
+      <!--===== NEW COLLECTION =====-->
+      <section class="new section" id="new">
+        <h2 class="section-title">NOVA COLEÇÃO</h2>
+
+        <div class="new__container bd-grid">
+          <div class="new__mens">
+            <img src="./assets/img/home2.png" alt="" class="new__mens-img">
+            <h3 class="new__title">Cereja</h3>
+            <span class="new__price">A partir de $14.99</span>
+            <a href="#" class="button-light">Veja as opções <i class="bx bx-right-arrow-alt button-icon"></i></a>
+          </div>
+
+          <div class="new__juice">
+            <div class="new__juice-card">
+              <img src="./assets/img/amora.png" alt="" class="new__juice-img">
+              <div class="new__juice-overlay">
+                <a href="#" class="button">Adicionar ao carrinho</a>
+              </div>
+            </div>
+            
+            <div class="new__juice-card">
+              <img src="./assets/img/frutas-vermelhas.png" alt="" class="new__juice-img">
+              <div class="new__juice-overlay">
+                <a href="#" class="button">Adicionar ao carrinho</a>
+              </div>
+            </div>
+
+            <div class="new__juice-card">
+              <img src="./assets/img/blueberry.png" alt="" class="new__juice-img">
+              <div class="new__juice-overlay">
+                <a href="#" class="button">Adicionar ao carrinho</a>
+              </div>
+            </div>
+
+            <div class="new__juice-card">
+              <img src="./assets/img/cereja.png" alt="" class="new__juice-img">
+              <div class="new__juice-overlay">
+                <a href="#" class="button">Adicionar ao carrinho</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--===== NEWSLETTER =====-->
+      <section class="newsletter section">
+        <div class="newsletter__container bd-grid">
+          <div>
+            <h3 class="newsletter__title">Assine e Receba <br> 10% OFF</h3>
+            <p class="newsletter__description">Ganhe 10% de desconto para todos os produtos</p>
+          </div>
+
+          <form action="" class="newsletter__subscribe">
+            <input type="text" class="newsletter__input" placeholder="@email.com">
+            <a href="#" class="button">Increver</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__box">
+          <h3 class="footer__title">eJuice</h3>
+          <p class="footer__description">Novos sabores em 2020.</p>
+        </div>
+        
+        <div class="footer__box">
+          <h3 class="footer__title">EXPLORE</h3>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#featured" class="footer__link">Destaques</a></li>
+            <li><a href="#tropicais" class="footer__link">Feminino</a></li>
+            <li><a href="#new" class="footer__link">Novidade</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__box">
+          <h3 class="footer__title">+INFORMAÇÕES</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Valores nutricionais</a></li>
+            <li><a href="#" class="footer__link">Atendimento ao cliente</a></li>
+            <li><a href="#" class="footer__link">Localização</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-google'></i></a>
+        </div>
+
+      </div>
+
+      <p class="footer__copy">&#169; 2020 DevApp. All right reserved</p>
+    </footer>
+  </body>
+</html>
